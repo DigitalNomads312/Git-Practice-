@@ -14,5 +14,7 @@ public class Main {
             reversed += str.charAt(i);
         }
         return reversed;
+
     }
+
 }
