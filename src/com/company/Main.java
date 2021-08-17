@@ -7,6 +7,7 @@ public class Main {
 //        System.out.println("changes on my project");
         String str = "Azamat";
         System.out.println(reverse(str));
+        System.out.println("new sout");
 
     }
 
