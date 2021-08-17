@@ -33,4 +33,9 @@ public class Main {
         return a + b;
  }
 
+ public static  int Min (int a , int b){
+        return a - b;
+ }
+
+
 }
