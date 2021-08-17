@@ -3,9 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
 //        System.out.println("changes on my project");
         String str = "Azamat";
         System.out.println(reverse(str));
+
     }
 
     public static String reverse (String str) {
@@ -15,6 +17,15 @@ public class Main {
         }
         return reversed;
 
+    }
+
+    public static boolean isPolendrom(String str){
+        String str1 = reverse(str);
+        if(str.equals(str1)){
+            return true;
+        }else {
+
+        }return false;
     }
 
 }
